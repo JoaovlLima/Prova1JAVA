@@ -18,18 +18,18 @@ public class Prova {
         double resultado = 00;
 
         if(operacao == 1){
-          resultado = num1+num2; 
+          System.out.println("Resultado da operação "+(num1+num2)); 
         } else if (operacao ==2){
-            resultado = num1-num2;
+            System.out.println("Resultado da operação "+(num1-num2));
         } else if (operacao==3){
-            resultado = num1*num2;
+            System.out.println("Resultado da operação "+(num1*num2));
         }else if (operacao==4 && num2!=0){
-            resultado = num1/num2;
+            System.out.println("Resultado da operação "+(num1/num2));
         }
          else{System.out.println("numero da operação não encontrado");
     }
 
-        System.out.println("Resultado de seu Operação = "+resultado);
+        
 
     }
     public void exercicio2(){
